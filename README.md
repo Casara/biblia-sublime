@@ -109,6 +109,16 @@ formats, the template fields and the program's config file are
 documented in the
 [biblia README](https://github.com/Casara/biblia-cli#readme).
 
+## What leaves your machine
+
+The package itself makes no network connection: it only runs the
+`biblia` program. The program sends the **references** you look up (book,
+chapter, verses and translation, nothing else from the file) to Bíblia
+Online's server, unless the verses are already in its local cache.
+`biblia dados baixar` downloads the STEPBible and UBS data from GitHub,
+once. The original-language, Strong and dictionary commands work from
+that local data, offline.
+
 ## Sources and credits
 
 - **Bible text:** [Bíblia Online](https://www.bibliaonline.com.br),

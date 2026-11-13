@@ -109,6 +109,15 @@ programa. Os formatos, os campos dos modelos e o arquivo de configuração
 do programa estão no
 [README do biblia](https://github.com/Casara/biblia-cli/blob/main/README.pt-BR.md).
 
+## O que sai do seu computador
+
+O pacote não acessa a rede: ele só roda o programa `biblia`. O programa
+envia ao servidor da Bíblia Online as **referências** consultadas (livro,
+capítulo, versículos e tradução, nada mais do arquivo), a não ser que os
+versículos já estejam no cache local. O `biblia dados baixar` baixa uma
+vez, do GitHub, os dados da STEPBible e da UBS; o original, o Strong e os
+dicionários funcionam com esses dados locais, sem internet.
+
 ## Fontes e créditos
 
 - **Texto bíblico:** [Bíblia Online](https://www.bibliaonline.com.br),
