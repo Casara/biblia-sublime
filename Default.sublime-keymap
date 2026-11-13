@@ -11,4 +11,5 @@
   // { "keys": ["ctrl+alt+shift+b"], "command": "biblia_inserir" },
   // { "keys": ["ctrl+alt+l"], "command": "biblia_paralelos" },
   // { "keys": ["ctrl+alt+shift+l"], "command": "biblia_inserir_paralelos" },
+  // { "keys": ["ctrl+alt+o"], "command": "biblia_original" },
 ]

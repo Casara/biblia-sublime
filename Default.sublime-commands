@@ -4,6 +4,10 @@
   { "caption": "Bíblia: consultar…", "command": "biblia_perguntar" },
   { "caption": "Bíblia: passagens paralelas da referência selecionada", "command": "biblia_paralelos" },
   { "caption": "Bíblia: inserir o texto das passagens paralelas", "command": "biblia_inserir_paralelos" },
+  { "caption": "Bíblia: consultar com o original (hebraico/grego e Strong)", "command": "biblia_original" },
+  { "caption": "Bíblia: Strong…", "command": "biblia_strong" },
+  { "caption": "Bíblia: consultar em outras traduções…", "command": "biblia_consultar_versoes" },
+  { "caption": "Bíblia: inserir texto em outras traduções…", "command": "biblia_inserir_versoes" },
   {
     "caption": "Preferences: Bíblia Settings",
     "command": "edit_settings",

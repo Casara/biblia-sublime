@@ -56,9 +56,22 @@ All of them are in the command palette (`Ctrl+Shift+P`, type
 | **Bíblia: consultar…** | asks for a reference and shows its text |
 | **Bíblia: passagens paralelas da referência selecionada** | shows the text and the list of parallel passages (Old Testament quotations in the New, Gospel parallels...) |
 | **Bíblia: inserir o texto das passagens paralelas** | keeps the reference and inserts, on the lines after it, the text of each parallel passage, saying what it is |
+| **Bíblia: consultar com o original (hebraico/grego e Strong)** | opens a read-only tab with the text and, word by word, the Hebrew/Greek original, transliteration, Strong number, gloss and grammar |
+| **Bíblia: Strong…** | the lexicon entry of the Strong number under the cursor (`G25`, `H7451b`); otherwise asks for a number, transliteration or gloss |
+| **Bíblia: consultar em outras traduções…** | asks which translations to use this time (`ara,naa,nvi`), then works like *consultar* |
+| **Bíblia: inserir texto em outras traduções…** | asks which translations to use this time, then works like *inserir* |
 
 With no selection, the cursor line counts. References are typed the
 Brazilian way: `Jo 3.16`, `1 Co 13.4-7`, `Rm 5.8; 6.23`, `Sl 23`.
+
+The original and Strong commands use a *Bíblia* tab instead of the
+popup, because the interlinear columns need a monospaced font; Strong
+entries go to a second tab, leaving the interlinear in place. In the
+original tab, put the cursor on a Strong number and run **Bíblia: Strong…** to
+see its entry. The gloss search uses the dictionaries' language:
+Portuguese for Hebrew, Spanish for Greek. The translation prompt starts
+from the last choice (or `versoes`) and leaves the settings alone. The
+original and Strong commands need `biblia dados baixar`.
 
 ## Key bindings
 
@@ -74,6 +87,7 @@ your own keymap on the right, without the comment slashes:
   { "keys": ["ctrl+alt+shift+b"], "command": "biblia_inserir" },
   { "keys": ["ctrl+alt+l"], "command": "biblia_paralelos" },
   { "keys": ["ctrl+alt+shift+l"], "command": "biblia_inserir_paralelos" },
+  { "keys": ["ctrl+alt+o"], "command": "biblia_original" },
 ]
 ```
 

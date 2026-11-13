@@ -3,6 +3,25 @@
 Mudanças do pacote do Sublime Text. As do programa `biblia` estão no
 `CHANGELOG.md` do [biblia-cli](https://github.com/Casara/biblia-cli).
 
+## [Não publicado]
+
+### Adicionado
+
+- **Bíblia: consultar com o original (hebraico/grego e Strong)**: o `-s`
+  do programa, numa aba *Bíblia* só de leitura. Atalho sugerido:
+  `Ctrl+Alt+O`.
+- **Bíblia: Strong…**: o verbete do número sob o cursor ou selecionado
+  (também na aba *Bíblia*); sem número, pergunta o número, a
+  transliteração (`-tr`) ou a glosa (`-glosa`).
+- **Bíblia: consultar em outras traduções…** e **inserir texto em outras
+  traduções…**: pergunta as traduções só para aquela vez, começando da
+  última escolha.
+
+### Corrigido
+
+- O `versoes` das configurações não é mais enviado aos subcomandos que
+  não aceitam `-v` (`strong`, `versoes`).
+
 ## [0.2.0] - 2026-11-13
 
 ### Adicionado
