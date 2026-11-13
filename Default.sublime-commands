@@ -1,0 +1,24 @@
+[
+  { "caption": "Bíblia: consultar referência selecionada", "command": "biblia_consultar" },
+  { "caption": "Bíblia: inserir texto no lugar da referência", "command": "biblia_inserir" },
+  { "caption": "Bíblia: consultar…", "command": "biblia_perguntar" },
+  { "caption": "Bíblia: passagens paralelas da referência selecionada", "command": "biblia_paralelos" },
+  { "caption": "Bíblia: inserir o texto das passagens paralelas", "command": "biblia_inserir_paralelos" },
+  {
+    "caption": "Preferences: Bíblia Settings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/Biblia/biblia.sublime-settings",
+      "default": "// Opções do Bíblia: copie do lado esquerdo o que quiser mudar.\n{\n\t$0\n}\n"
+    }
+  },
+  {
+    "caption": "Preferences: Bíblia Key Bindings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/Biblia/Default.sublime-keymap",
+      "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
+      "default": "[\n\t$0\n]\n"
+    }
+  }
+]

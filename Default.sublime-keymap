@@ -1,0 +1,14 @@
+[
+  // Bíblia: sugestões de atalhos. O plugin não ativa nenhum: copie as
+  // linhas que quiser para o seu keymap (Preferences > Package Settings >
+  // Bíblia > Key Bindings, ou "Preferences: Bíblia Key Bindings" na
+  // paleta), sem as barras de comentário.
+  //
+  // Bíblia: suggested key bindings. The plugin enables none: copy the
+  // lines you want into your own keymap, without the comment slashes.
+  //
+  // { "keys": ["ctrl+alt+b"], "command": "biblia_consultar" },
+  // { "keys": ["ctrl+alt+shift+b"], "command": "biblia_inserir" },
+  // { "keys": ["ctrl+alt+l"], "command": "biblia_paralelos" },
+  // { "keys": ["ctrl+alt+shift+l"], "command": "biblia_inserir_paralelos" },
+]

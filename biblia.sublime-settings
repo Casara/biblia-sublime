@@ -1,0 +1,14 @@
+{
+  // Caminho do binário. Com só o nome ("biblia"), procura no PATH e depois
+  // em ~/.local/bin e ~/go/bin, que o Sublime aberto pelo menu não enxerga.
+  "executavel": "biblia",
+  // Traduções, separadas por vírgula; vazio = as do ~/.config/biblia/config.json.
+  "versoes": "",
+  // Formato dos comandos de inserir: "auto" (pelo tipo do arquivo), linha,
+  // md, typ ou um modelo seu. Em "auto", um arquivo sem formato associado
+  // usa o formato_filtro do ~/.config/biblia/config.json.
+  "formato": "auto",
+  // No formato "auto": extensão do arquivo → formato. Sem extensão listada,
+  // vale a sintaxe do arquivo (Markdown → md, Typst → typ).
+  "formatos_por_extensao": { ".md": "md", ".markdown": "md", ".typ": "typ" }
+}

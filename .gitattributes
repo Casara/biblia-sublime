@@ -1,0 +1,5 @@
+# Package Control builds the package with git archive: keep out what has no
+# use inside Sublime Text.
+.gitattributes export-ignore
+README.pt-BR.md export-ignore
+CHANGELOG.md export-ignore
