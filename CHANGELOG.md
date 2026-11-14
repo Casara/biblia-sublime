@@ -3,6 +3,12 @@
 Mudanças do pacote do Sublime Text. As do programa `biblia` estão no
 `CHANGELOG.md` do [biblia-cli](https://github.com/Casara/biblia-cli).
 
+## [Não publicado]
+
+### Documentação
+
+- README com imagens das extensões funcionando.
+
 ## [0.3.1] - 2026-11-13
 
 ### Documentação

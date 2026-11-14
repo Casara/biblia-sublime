@@ -73,6 +73,13 @@ Portuguese for Hebrew, Spanish for Greek. The translation prompt starts
 from the last choice (or `versoes`) and leaves the settings alone. The
 original and Strong commands need `biblia dados baixar`.
 
+![The text of Jo 3.16 in a popup over the reference][consultar]
+
+![The interlinear of Jo 3.16 in the Bíblia tab: Greek word, transliteration, Strong number, gloss and grammar][original]
+
+[consultar]: https://raw.githubusercontent.com/Casara/biblia-cli/main/docs/images/sublime-consultar.png
+[original]: https://raw.githubusercontent.com/Casara/biblia-cli/main/docs/images/sublime-original.png
+
 ## Key bindings
 
 The package enables no key bindings. Suggested ones, free in Sublime

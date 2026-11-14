@@ -73,6 +73,13 @@ no hebraico, espanhol no grego. A escolha de traduções começa da última
 feita (ou de `versoes`) e não muda as configurações. O original e o
 Strong precisam do `biblia dados baixar`.
 
+![O texto de Jo 3.16 numa janela flutuante sobre a referência][consultar]
+
+![O interlinear de Jo 3.16 na aba Bíblia: palavra grega, transliteração, número de Strong, glosa e gramática][original]
+
+[consultar]: https://raw.githubusercontent.com/Casara/biblia-cli/main/docs/images/sublime-consultar.png
+[original]: https://raw.githubusercontent.com/Casara/biblia-cli/main/docs/images/sublime-original.png
+
 ## Atalhos
 
 O pacote não ativa atalho nenhum. Os sugeridos, livres no Sublime Text e
