@@ -1,0 +1,14 @@
+[
+  // Biblia: sugestões de atalhos. O Sublime Text não lê este arquivo, então
+  // nenhum atalho fica ativo: copie as linhas que quiser para o seu keymap
+  // (Preferences > Package Settings > Biblia > Key Bindings, ou
+  // "Preferences: Biblia Key Bindings" na paleta).
+  //
+  // Biblia: suggested key bindings. Sublime Text does not load this file,
+  // so none is active: copy the lines you want into your own keymap.
+  { "keys": ["ctrl+alt+b"], "command": "biblia_consultar" },
+  { "keys": ["ctrl+alt+shift+b"], "command": "biblia_inserir" },
+  { "keys": ["ctrl+alt+l"], "command": "biblia_paralelos" },
+  { "keys": ["ctrl+alt+shift+l"], "command": "biblia_inserir_paralelos" },
+  { "keys": ["ctrl+alt+o"], "command": "biblia_original" },
+]

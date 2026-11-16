@@ -6,21 +6,21 @@
         "id": "package-settings",
         "children": [
           {
-            "caption": "Bíblia",
+            "caption": "Biblia",
             "children": [
               {
                 "caption": "Settings",
                 "command": "edit_settings",
                 "args": {
-                  "base_file": "${packages}/Biblia/biblia.sublime-settings",
-                  "default": "// Opções do Bíblia: copie do lado esquerdo o que quiser mudar.\n{\n\t$0\n}\n"
+                  "base_file": "${packages}/Biblia/Biblia.sublime-settings",
+                  "default": "// Opções do Biblia: copie do lado esquerdo o que quiser mudar.\n{\n\t$0\n}\n"
                 }
               },
               {
                 "caption": "Key Bindings",
                 "command": "edit_settings",
                 "args": {
-                  "base_file": "${packages}/Biblia/Default.sublime-keymap",
+                  "base_file": "${packages}/Biblia/Example.sublime-keymap",
                   "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
                   "default": "[\n\t$0\n]\n"
                 }

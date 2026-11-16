@@ -3,6 +3,19 @@
 Mudanças do pacote do Sublime Text. As do programa `biblia` estão no
 `CHANGELOG.md` do [biblia-cli](https://github.com/Casara/biblia-cli).
 
+## [0.4.0] - 2026-11-16
+
+### Mudado
+
+- O nome do pacote aparece como **Biblia**, sem acento, onde é digitado
+  ou procurado: os comandos da paleta (*Biblia: consultar…*,
+  *Preferences: Biblia Settings*), o menu *Package Settings › Biblia* e o
+  arquivo de configurações, que passa a ser `Biblia.sublime-settings`.
+  Quem já tinha um `Packages/User/biblia.sublime-settings` precisa
+  renomeá-lo.
+- Os atalhos sugeridos estão em `Example.sublime-keymap`, sem comentar:
+  o Sublime Text não lê esse arquivo, e copiar fica mais fácil.
+
 ## [0.3.2] - 2026-11-13
 
 ### Documentação
@@ -54,6 +67,7 @@ Mudanças do pacote do Sublime Text. As do programa `biblia` estão no
   `~/go/bin`; no Windows, também como `biblia.exe`, sem abrir janela de
   console.
 
+[0.4.0]: https://github.com/Casara/biblia-sublime/tree/0.4.0
 [0.3.2]: https://github.com/Casara/biblia-sublime/tree/0.3.2
 [0.3.1]: https://github.com/Casara/biblia-sublime/tree/0.3.1
 [0.3.0]: https://github.com/Casara/biblia-sublime/tree/0.3.0

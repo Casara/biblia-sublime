@@ -47,19 +47,19 @@ not see. Anywhere else, set its full path in the `executavel` setting.
 ## Commands
 
 All of them are in the command palette (`Ctrl+Shift+P`, type
-"Bíblia"):
+"Biblia"):
 
 | Command | What it does |
 | --- | --- |
-| **Bíblia: consultar referência selecionada** | shows the text in a popup, leaving the file alone |
-| **Bíblia: inserir texto no lugar da referência** | replaces the selected reference with its text |
-| **Bíblia: consultar…** | asks for a reference and shows its text |
-| **Bíblia: passagens paralelas da referência selecionada** | shows the text and the list of parallel passages (Old Testament quotations in the New, Gospel parallels...) |
-| **Bíblia: inserir o texto das passagens paralelas** | keeps the reference and inserts, on the lines after it, the text of each parallel passage, saying what it is |
-| **Bíblia: consultar com o original (hebraico/grego e Strong)** | opens a read-only tab with the text and, word by word, the Hebrew/Greek original, transliteration, Strong number, gloss and grammar |
-| **Bíblia: Strong…** | the lexicon entry of the Strong number under the cursor (`G25`, `H7451b`); otherwise asks for a number, transliteration or gloss |
-| **Bíblia: consultar em outras traduções…** | asks which translations to use this time (`ara,naa,nvi`), then works like *consultar* |
-| **Bíblia: inserir texto em outras traduções…** | asks which translations to use this time, then works like *inserir* |
+| **Biblia: consultar referência selecionada** | shows the text in a popup, leaving the file alone |
+| **Biblia: inserir texto no lugar da referência** | replaces the selected reference with its text |
+| **Biblia: consultar…** | asks for a reference and shows its text |
+| **Biblia: passagens paralelas da referência selecionada** | shows the text and the list of parallel passages (Old Testament quotations in the New, Gospel parallels...) |
+| **Biblia: inserir o texto das passagens paralelas** | keeps the reference and inserts, on the lines after it, the text of each parallel passage, saying what it is |
+| **Biblia: consultar com o original (hebraico/grego e Strong)** | opens a read-only tab with the text and, word by word, the Hebrew/Greek original, transliteration, Strong number, gloss and grammar |
+| **Biblia: Strong…** | the lexicon entry of the Strong number under the cursor (`G25`, `H7451b`); otherwise asks for a number, transliteration or gloss |
+| **Biblia: consultar em outras traduções…** | asks which translations to use this time (`ara,naa,nvi`), then works like *consultar* |
+| **Biblia: inserir texto em outras traduções…** | asks which translations to use this time, then works like *inserir* |
 
 With no selection, the cursor line counts. References are typed the
 Brazilian way: `Jo 3.16`, `1 Co 13.4-7`, `Rm 5.8; 6.23`, `Sl 23`.
@@ -67,7 +67,7 @@ Brazilian way: `Jo 3.16`, `1 Co 13.4-7`, `Rm 5.8; 6.23`, `Sl 23`.
 The original and Strong commands use a *Bíblia* tab instead of the
 popup, because the interlinear columns need a monospaced font; Strong
 entries go to a second tab, leaving the interlinear in place. In the
-original tab, put the cursor on a Strong number and run **Bíblia: Strong…** to
+original tab, put the cursor on a Strong number and run **Biblia: Strong…** to
 see its entry. The gloss search uses the dictionaries' language:
 Portuguese for Hebrew, Spanish for Greek. The translation prompt starts
 from the last choice (or `versoes`) and leaves the settings alone. The
@@ -83,10 +83,11 @@ original and Strong commands need `biblia dados baixar`.
 ## Key bindings
 
 The package enables no key bindings. Suggested ones, free in Sublime
-Text's defaults and in the common desktop shortcuts, are in its keymap:
-open **Preferences › Package Settings › Bíblia › Key Bindings** (or
-*Preferences: Bíblia Key Bindings* in the palette) and copy them into
-your own keymap on the right, without the comment slashes:
+Text's defaults and in the common desktop shortcuts, are in its
+`Example.sublime-keymap`, which Sublime Text does not load: open
+**Preferences › Package Settings › Biblia › Key Bindings** (or
+*Preferences: Biblia Key Bindings* in the palette) and copy the ones you
+want into your own keymap, on the right:
 
 ```json
 [
@@ -100,7 +101,7 @@ your own keymap on the right, without the comment slashes:
 
 ## Settings
 
-**Preferences › Package Settings › Bíblia › Settings**:
+**Preferences › Package Settings › Biblia › Settings**:
 
 | Setting | Default | What it does |
 | --- | --- | --- |

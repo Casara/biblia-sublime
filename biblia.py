@@ -1,6 +1,6 @@
 """Sublime Text integration for the `biblia` command-line tool.
 
-Commands (see Default.sublime-commands and Default.sublime-keymap):
+Commands (see Default.sublime-commands and Example.sublime-keymap):
 
 - biblia_consultar: shows the text of the selected reference (or of the
   reference on the cursor line) in a popup, without touching the file.
@@ -22,7 +22,7 @@ The interlinear and the lexicon go to a tab, not to the popup: they are
 aligned in columns, which the popup's proportional font would break, and
 the cursor can stand on a Strong number there.
 
-Settings (Preferences > Package Settings, or biblia.sublime-settings):
+Settings (Preferences > Package Settings > Biblia, or Biblia.sublime-settings):
   "executavel": path to the binary (default "biblia", from PATH)
   "versoes":    e.g. "ara,naa" (empty = the tool's own config)
   "formato":    format of the insert commands; "auto" (default) picks it
@@ -40,7 +40,8 @@ import subprocess
 import sublime
 import sublime_plugin
 
-SETTINGS = "biblia.sublime-settings"
+# Named after the package, as Package Control expects.
+SETTINGS = "Biblia.sublime-settings"
 
 
 def _settings():

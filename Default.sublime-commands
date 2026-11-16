@@ -1,26 +1,26 @@
 [
-  { "caption": "Bíblia: consultar referência selecionada", "command": "biblia_consultar" },
-  { "caption": "Bíblia: inserir texto no lugar da referência", "command": "biblia_inserir" },
-  { "caption": "Bíblia: consultar…", "command": "biblia_perguntar" },
-  { "caption": "Bíblia: passagens paralelas da referência selecionada", "command": "biblia_paralelos" },
-  { "caption": "Bíblia: inserir o texto das passagens paralelas", "command": "biblia_inserir_paralelos" },
-  { "caption": "Bíblia: consultar com o original (hebraico/grego e Strong)", "command": "biblia_original" },
-  { "caption": "Bíblia: Strong…", "command": "biblia_strong" },
-  { "caption": "Bíblia: consultar em outras traduções…", "command": "biblia_consultar_versoes" },
-  { "caption": "Bíblia: inserir texto em outras traduções…", "command": "biblia_inserir_versoes" },
+  { "caption": "Biblia: consultar referência selecionada", "command": "biblia_consultar" },
+  { "caption": "Biblia: inserir texto no lugar da referência", "command": "biblia_inserir" },
+  { "caption": "Biblia: consultar…", "command": "biblia_perguntar" },
+  { "caption": "Biblia: passagens paralelas da referência selecionada", "command": "biblia_paralelos" },
+  { "caption": "Biblia: inserir o texto das passagens paralelas", "command": "biblia_inserir_paralelos" },
+  { "caption": "Biblia: consultar com o original (hebraico/grego e Strong)", "command": "biblia_original" },
+  { "caption": "Biblia: Strong…", "command": "biblia_strong" },
+  { "caption": "Biblia: consultar em outras traduções…", "command": "biblia_consultar_versoes" },
+  { "caption": "Biblia: inserir texto em outras traduções…", "command": "biblia_inserir_versoes" },
   {
-    "caption": "Preferences: Bíblia Settings",
+    "caption": "Preferences: Biblia Settings",
     "command": "edit_settings",
     "args": {
-      "base_file": "${packages}/Biblia/biblia.sublime-settings",
-      "default": "// Opções do Bíblia: copie do lado esquerdo o que quiser mudar.\n{\n\t$0\n}\n"
+      "base_file": "${packages}/Biblia/Biblia.sublime-settings",
+      "default": "// Opções do Biblia: copie do lado esquerdo o que quiser mudar.\n{\n\t$0\n}\n"
     }
   },
   {
-    "caption": "Preferences: Bíblia Key Bindings",
+    "caption": "Preferences: Biblia Key Bindings",
     "command": "edit_settings",
     "args": {
-      "base_file": "${packages}/Biblia/Default.sublime-keymap",
+      "base_file": "${packages}/Biblia/Example.sublime-keymap",
       "user_file": "${packages}/User/Default (${platform}).sublime-keymap",
       "default": "[\n\t$0\n]\n"
     }
